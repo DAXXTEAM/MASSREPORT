@@ -79,7 +79,7 @@ async def handle_Query(bot: Client, query: CallbackQuery):
             [InlineKeyboardButton(text='📰𝖴𝖯𝖣𝖠𝖳𝖤🗞️', url='https://t.me/ALLTYPECC'),
              InlineKeyboardButton(text='🤖𝖡𝖮𝖳 𝖨𝖭𝖥𝖮ℹ️', callback_data='about')],
             [InlineKeyboardButton(text='🧑‍💻𝖣𝖤𝖵⌨️',
-                                  url='https://t.me/YourExDestiny')]
+                                  url='https://t.me/itzdaxx')]
         ]
 
         await query.message.edit(text=Txt.START_MSG.format(query.from_user.mention), reply_markup=InlineKeyboardMarkup(Btn))
